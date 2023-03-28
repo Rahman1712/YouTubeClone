@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Youtube</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="images/title.png">
+</head>
+<body>
+
+  <!-- ===========navigation header======== -->
+  <nav class="flex-div nav-top" >
+    <div class="nav-left flex-div">
+      <svg class="menu-icon" viewBox="0 0 24 24"><g><path d="M21,6H3V5h18V6z M21,11H3v1h18V11z M21,17H3v1h18V17z"></path></g></svg>
+      <!-- ----logo------ -->
+      <a class="logo-a" href="">
+        <img src="images/youtubein.png" alt="YOUTUBE" class="logo">
+      </a>
+    </div>
+    <div class="nav-middle flex-div">
+      <div class="search-box flex-div">
+        <input type="text" placeholder="Search">
+        <button class="search-btn">
+          <svg class="search-icon" viewBox="0 0 24 24"><g><path d="M20.87,20.17l-5.59-5.59C16.35,13.35,17,11.75,17,10c0-3.87-3.13-7-7-7s-7,3.13-7,7s3.13,7,7,7c1.75,0,3.35-0.65,4.58-1.71 l5.59,5.59L20.87,20.17z M10,16c-3.31,0-6-2.69-6-6s2.69-6,6-6s6,2.69,6,6S13.31,16,10,16z"></path></g></svg>
+        </button>
+      </div>
+      <svg class="mic-icon" viewBox="0 0 24 24"><g><path d="M12 3C10.34 3 9 4.37 9 6.07V11.93C9 13.63 10.34 15 12 15C13.66 15 15 13.63 15 11.93V6.07C15 4.37 13.66 3 12 3ZM18.5 12H17.5C17.5 15.03 15.03 17.5 12 17.5C8.97 17.5 6.5 15.03 6.5 12H5.5C5.5 15.24 7.89 17.93 11 18.41V21H13V18.41C16.11 17.93 18.5 15.24 18.5 12Z" fill="currentColor"></path></g></svg>
+    </div>
+    <div class="nav-right flex-div">
+      <svg viewBox="0 0 24 24"  class="right-svg"><g><path d="M14,13h-3v3H9v-3H6v-2h3V8h2v3h3V13z M17,6H3v12h14v-6.39l4,1.83V8.56l-4,1.83V6 M18,5v3.83L22,7v8l-4-1.83V19H2V5H18L18,5 z" fill="currentColor"></path></g></svg>
+      <svg viewBox="0 0 24 24" class="right-svg"><g><path d="M10,20h4c0,1.1-0.9,2-2,2S10,21.1,10,20z M20,17.35V19H4v-1.65l2-1.88v-5.15c0-2.92,1.56-5.22,4-5.98V3.96 c0-1.42,1.49-2.5,2.99-1.76C13.64,2.52,14,3.23,14,3.96l0,0.39c2.44,0.75,4,3.06,4,5.98v5.15L20,17.35z M19,17.77l-2-1.88v-5.47 c0-2.47-1.19-4.36-3.13-5.1c-1.26-0.53-2.64-0.5-3.84,0.03C8.15,6.11,7,7.99,7,10.42v5.47l-2,1.88V18h14V17.77z" fill="currentColor"></path></g></svg>
+      <img src="images/profilepic.jpg" class="user-icon">
+    </div>
+  </nav>
+
+<!-- -------sidebar----------- -->
+<div class="sidebar">
+    <div class="shortcut-links">
+      <a href="#">
+        <!-- <img src="images/home.png"> -->
+        <svg viewBox="0 0 24 24" class="svg-side">
+          <g><path d="M4,10V21h6V15h4v6h6V10L12,3Z"></path></g></svg>
+        <p>Home</p>
+      </a>
+      <a href="#">
+        <!-- <img src="images/shorts.png"> -->
+        <svg viewBox="0 0 24 24" class="svg-side">
+          <g viewBox="0 0 24 24"><path d="M10 14.65v-5.3L15 12l-5 2.65zm7.77-4.33c-.77-.32-1.2-.5-1.2-.5L18 9.06c1.84-.96 2.53-3.23 1.56-5.06s-3.24-2.53-5.07-1.56L6 6.94c-1.29.68-2.07 2.04-2 3.49.07 1.42.93 2.67 2.22 3.25.03.01 1.2.5 1.2.5L6 14.93c-1.83.97-2.53 3.24-1.56 5.07.97 1.83 3.24 2.53 5.07 1.56l8.5-4.5c1.29-.68 2.06-2.04 1.99-3.49-.07-1.42-.94-2.68-2.23-3.25zm-.23 5.86l-8.5 4.5c-1.34.71-3.01.2-3.72-1.14-.71-1.34-.2-3.01 1.14-3.72l2.04-1.08v-1.21l-.69-.28-1.11-.46c-.99-.41-1.65-1.35-1.7-2.41-.05-1.06.52-2.06 1.46-2.56l8.5-4.5c1.34-.71 3.01-.2 3.72 1.14.71 1.34.2 3.01-1.14 3.72L15.5 9.26v1.21l1.8.74c.99.41 1.65 1.35 1.7 2.41.05 1.06-.52 2.06-1.46 2.56z"></path></g></svg>
+        <p>Shorts</p>
+      </a>
+      <a href="#">
+        <!-- <img src="images/subscriptions.png"> -->
+        <svg viewBox="0 0 24 24" class="svg-side">
+          <g><path d="M10,18v-6l5,3L10,18z M17,3H7v1h10V3z M20,6H4v1h16V6z M22,9H2v12h20V9z M3,10h18v10H3V10z"></path></g></svg>
+        <p>Subscriptions</p>
+      </a>
+      <a href="#">
+        <!-- <img src="images/library.png"> -->
+        <svg viewBox="0 0 24 24" class="svg-side">
+          <g><path d="M11,7l6,3.5L11,14V7L11,7z M18,20H4V6H3v15h15V20z M21,18H6V3h15V18z M7,17h13V4H7V17z"></path></g></svg>
+        <p>Library</p>
+      </a>
+    </div>
+</div>
+<!-- -----------------top navs---------------- -->
+<nav class="nav-bar">
+  <button type="button" class="nav-btn"><a class="nav-txt" href="">All</a></button>
+  <button type="button" class="nav-btn"><a class="nav-txt" href="">Gaming</a></button>
+  <button type="button" class="nav-btn"><a class="nav-txt" href="">Computer Programming</a></button>
+  <button type="button" class="nav-btn"><a class="nav-txt" href="">News</a></button>
+  <button type="button" class="nav-btn"><a class="nav-txt" href="">Music</a></button>
+  <button type="button" class="nav-btn"><a class="nav-txt" href="">AI</a></button>
+  <button type="button" class="nav-btn"><a class="nav-txt" href="">Live</a></button>
+  <button type="button" class="nav-btn"><a class="nav-txt" href="">Editing</a></button>
+  <button type="button" class="nav-btn"><a class="nav-txt" href="">Sales</a></button>
+  <button type="button" class="nav-btn"><a class="nav-txt" href="">Scene</a></button>
+  <button type="button" class="nav-btn"><a class="nav-txt" href="">Sports Leagues</a></button>
+  <button type="button" class="nav-btn"><a class="nav-txt" href="">Cricket</a></button>
+  <button type="button" class="nav-btn"><a class="nav-txt" href="">Comedy</a></button>
+  <!-- <button type="button" class="nav-btn"><a class="nav-txt" href="">Photo</a></button> -->
+  <button type="button" class="nav-btn"><a class="nav-txt" href="">Football</a></button>
+  <button type="button" class="nav-btn"><a class="nav-txt" href="">></a></button>
+</nav>
+
+<!-- -----------------main---------------- -->
+<div class="container">
+  <div class="banner">
+    <img src="images/thumbnails/netflix.png">
+  </div>
+  <div class="list-container">
+    <div class="vid-list">
+      <a href=""><img src="images/thumbnails/js.png" class="thumbnail"></a>
+      <div class="flex-div">
+        <img src="images/profilepic.jpg">
+        <div class="vid-info">
+          <a href="">What is Javascript , Learn Javascript.</a>
+          <p>All Tutorials</p>
+          <p>15k Views 5 &bull; days</p>
+        </div>
+      </div>
+    </div>
+    <div class="vid-list">
+      <a href=""><img src="images/thumbnails/thumbnail1.png" class="thumbnail"></a>
+      <div class="flex-div">
+        <img src="images/channel/Jack.png">
+        <div class="vid-info">
+          <a href="">Holkti Mountain in Philippienes</a>
+          <p>Second World</p>
+          <p>315k Views 4 &bull; weeks</p>
+        </div>
+      </div>
+    </div>
+    <div class="vid-list">
+      <a href=""><img src="images/thumbnails/ranaldo.png" class="thumbnail"></a>
+      <div class="flex-div">
+        <img src="images/channel/simon.png">
+        <div class="vid-info">
+          <a href="">Cristiano Ronaldo Alnasr vs Al Ittihad</a>
+          <p>Football Journey</p>
+          <p>15k Views &bull; 2 days</p>
+        </div>
+      </div>
+    </div>
+    <div class="vid-list">
+      <a href=""><img src="images/thumbnails/flexbox.png" class="thumbnail"></a>
+      <div class="flex-div">
+        <img src="images/channel/gerard.png">
+        <div class="vid-info">
+          <a href="">Learn flexbox in 5 minutes</a>
+          <p>Coder Boys</p>
+          <p>15k Views &bull; 2 days</p>
+        </div>
+      </div>
+    </div>
+    <div class="vid-list">
+      <a href=""><img src="images/thumbnails/tags.png" class="thumbnail"></a>
+      <div class="flex-div">
+        <img src="images/channel/simon.png">
+        <div class="vid-info">
+          <a href="">HTML Tags tutorial</a>
+          <p>HTML Tutorials</p>
+          <p>15k Views &bull; 2 days</p>
+        </div>
+      </div>
+    </div>
+    <div class="vid-list">
+      <a href=""><img src="images/thumbnails/thumbnail2.png" class="thumbnail"></a>
+      <div class="flex-div">
+        <img src="images/channel/megan.png">
+        <div class="vid-info">
+          <a href="">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a>
+          <p>ThirdWay</p>
+          <p>156k Views 2 &bull; months</p>
+        </div>
+      </div>
+    </div>
+    <div class="vid-list">
+      <a href=""><img src="images/thumbnails/css.png" class="thumbnail"></a>
+      <div class="flex-div">
+        <img src="images/channel/cameron.png">
+        <div class="vid-info">
+          <a href="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, officia!</a>
+          <p>Easy Tutorials</p>
+          <p>15k Views 2 &bull; days</p>
+        </div>
+      </div>
+    </div>
+    <div class="vid-list">
+      <a href=""><img src="images/thumbnails/thumbnail3.png" class="thumbnail"></a>
+      <div class="flex-div">
+        <img src="images/channel/gerard.png">
+        <div class="vid-info">
+          <a href="">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a>
+          <p>One Tutorials</p>
+          <p>15k Views 2 &bull; days</p>
+        </div>
+      </div>
+    </div>
+    <div class="vid-list">
+      <a href=""><img src="images/thumbnails/thumbnail4.png" class="thumbnail"></a>
+      <div class="flex-div">
+        <img src="images/channel/tom.png">
+        <div class="vid-info">
+          <a href="">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a>
+          <p>Tutorials Point</p>
+          <p>15k Views 2 &bull; days</p>
+        </div>
+      </div>
+    </div>
+    <div class="vid-list">
+      <a href=""><img src="images/thumbnails/thumbnail5.png" class="thumbnail"></a>
+      <div class="flex-div">
+        <img src="images/channel/Jack.png">
+        <div class="vid-info">
+          <a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a>
+          <p>Easy Learn</p>
+          <p>15k Views 2 &bull; days</p>
+        </div>
+      </div>
+    </div>
+    <div class="vid-list">
+      <a href=""><img src="images/thumbnails/thumbnail6.png" class="thumbnail"></a>
+      <div class="flex-div">
+        <img src="images/channel/megan.png">
+        <div class="vid-info">
+          <a href="">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a>
+          <p>John Mechael</p>
+          <p>15k Views 2 &bull; days</p>
+        </div>
+      </div>
+    </div>
+    <div class="vid-list">
+      <a href=""><img src="images/thumbnails/thumbnail7.png" class="thumbnail"></a>
+      <div class="flex-div">
+        <img src="images/channel/cameron.png">
+        <div class="vid-info">
+          <a href="">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a>
+          <p>Today Goals</p>
+          <p>15k Views &bull; 2 days</p>
+        </div>
+      </div>
+    </div>
+    <div class="vid-list">
+      <a href=""><img src="images/thumbnails/thumbnail8.png" class="thumbnail"></a>
+      <div class="flex-div">
+        <img src="images/channel/simon.png">
+        <div class="vid-info">
+          <a href="">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a>
+          <p>My Red</p>
+          <p>15k Views &bull; 2 days</p>
+        </div>
+      </div>
+    </div>
+    <!-- -----------  -->
+    <div class="vid-list">
+      <a href=""><img src="images/thumbnails/js.png" class="thumbnail"></a>
+      <div class="flex-div">
+        <img src="images/channel/megan.png">
+        <div class="vid-info">
+          <a href="">Best channel to learn JS that help you to be a web developer</a>
+          <p>Erwxi Polie</p>
+          <p>15k Views &bull; 2 days</p>
+        </div>
+      </div>
+    </div>
+    <div class="vid-list">
+      <a href=""><img src="images/thumbnails/css.png" class="thumbnail"></a>
+      <div class="flex-div">
+        <img src="images/channel/Jack.png">
+        <div class="vid-info">
+          <a href="">Best channel to learn CSS that help you to be a web developer</a>
+          <p>Squrex Loip</p>
+          <p>15k Views &bull; 2 days</p>
+        </div>
+      </div>
+    </div>
+    <div class="vid-list">
+      <a href=""><img src="images/thumbnails/psg.png" class="thumbnail"></a>
+      <div class="flex-div">
+        <img src="images/channel/tom.png">
+        <div class="vid-info">
+          <a href="">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a>
+          <p>Pokil Youkrw</p>
+          <p>15k Views &bull; 2 days</p>
+        </div>
+      </div>
+    </div>
+    <div class="vid-list">
+      <a href=""><img src="images/thumbnails/html5.png" class="thumbnail"></a>
+      <div class="flex-div">
+        <img src="images/channel/simon.png">
+        <div class="vid-info">
+          <a href="">Learn coding that help you to be a HTML expert</a>
+          <p>Ente Html</p>
+          <p>15k Views &bull; 2 days</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</body>
+</html>
